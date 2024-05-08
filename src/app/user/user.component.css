@@ -1,0 +1,6 @@
+section {
+    max-width: 500px;
+    margin: 0 auto; /* para centrar */
+    padding-top: 32px;/* para que no este pegado al margen */
+    font-size: 24px;/* agrandamos la fuente */
+}
