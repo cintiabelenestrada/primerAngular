@@ -1,1 +1,15 @@
-<p>user works!</p>
+<section>
+   @if (isLoggedIn) {
+    <!-- si el usuario esta logeado 
+        vamos RENDERIZAR EL USERNAME, se inicia sesion, vamos a mostrar: -->
+    <p>Bienvenido, {{username}}</p>
+    } @else{
+        <!-- si el usuario no esta logeado
+        vamos a RENDERIZAR: -->
+    <p>¡Inicia Sesion!</p>
+    }
+</section>
+
+
+
+

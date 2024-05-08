@@ -8,5 +8,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
-
+  username= 'midudev';
+  isLoggedIn = false;
 }
